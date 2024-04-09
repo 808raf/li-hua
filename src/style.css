@@ -90,6 +90,7 @@ hr {
   height: 100%;
   width: 100%;
   min-height: 50vh;
+  max-height: 50vh;
   flex-shrink: 0;
   background-color: hsl(33.33333333, 88.23529412%, 90%);
   padding: 2vw;
@@ -98,6 +99,10 @@ hr {
   justify-content: center;
   align-items: center;
   margin-left: 1vw;
+}
+
+p {
+  overflow-x: auto;
 }
 
 p,
