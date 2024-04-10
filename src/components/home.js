@@ -1,11 +1,11 @@
-import main2image from "./main2.jpg";
-import main3image from "./main3.jpg";
-import footer from "./footer";
-import navBar from "./navbar";
+import main2image from "../assests/main2.jpg";
+import main3image from "../assests/main3.jpg";
+import clearView from "./clearView";
 
 const home = () => {
+  clearView();
+
   const main = document.querySelector("#content");
-  const body = document.querySelector("body");
 
   const main2 = document.createElement("div");
   main2.classList.add("main-2");
@@ -18,7 +18,7 @@ const home = () => {
 
   const div = document.createElement("div");
   div.classList.add("centered");
-  content.appendChild(div);
+  main.appendChild(div);
 
   const h2 = document.createElement("h2");
   h2.classList.add("title");
@@ -59,8 +59,7 @@ const home = () => {
     "Word of Li Hua's extraordinary teas soon spread far and wide, drawing travelers and enthusiasts from distant lands to experience the essence of her mountain-grown leaves. Each cup of Li Hua Tea became a testament to the timeless traditions and artisanal craftsmanship that defined her legacy, inviting drinkers to savor not just the taste of tea, but the spirit of a culture steeped in reverence for nature and the art of tea-making.";
   storyCard.appendChild(par2);
 
-  body.append(navBar());
-  main.append(main2, div, contentWrapper, footer());
+  main.append(main2, div, contentWrapper);
 };
 
 export default home;

@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "../assests/logo.png";
 
 const navBar = () => {
   const header = document.createElement("header");
@@ -18,12 +18,15 @@ const navBar = () => {
 
   const home = document.createElement("button");
   home.textContent = "Home";
+  home.classList.add("homeBtn");
 
   const menu = document.createElement("button");
   menu.textContent = "Menu";
+  menu.classList.add("menuBtn");
 
   const contact = document.createElement("button");
-  contact.textContent = "Contact Us";
+  contact.textContent = "Locations";
+  contact.classList.add("locationBtn");
 
   header.appendChild(nav);
   nav.append(imgDiv, navLinks);
