@@ -22,7 +22,7 @@ const home = () => {
 
   const h2 = document.createElement("h2");
   h2.classList.add("title");
-  h2.textContent = "Li Hua Milk Tea";
+  h2.textContent = "Li Hua Tea";
   div.appendChild(h2);
 
   const contentWrapper = document.createElement("div");
@@ -41,7 +41,7 @@ const home = () => {
   main3img.src = main3image;
   storyContent.appendChild(main3img);
 
-  const storyCard = document.createElement("story-card");
+  const storyCard = document.createElement("div");
   storyCard.classList.add("story-card");
   storyContent.appendChild(storyCard);
 
