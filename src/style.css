@@ -170,3 +170,52 @@ a {
   height: 12vh;
   background-color: blue;
 }
+
+.menu-image img {
+  max-height: 40vh;
+  object-fit: contain;
+}
+
+.menu-image {
+  object-fit: cover;
+}
+
+.menu-card {
+  display: flex;
+  width: 35vw;
+  padding: 17px;
+}
+
+.menu-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  justify-content: center;
+  width: 100%;
+}
+
+.menu-title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-title {
+  color: white;
+  padding: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: hsla(20.93959732, 80.54054054%, 63.7254902%);
+}
+
+h3 {
+  font-size: calc(2.2 * 1rem);
+  font-weight: 700;
+}

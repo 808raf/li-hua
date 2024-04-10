@@ -1,9 +1,9 @@
 import clearView from "./clearView";
 import spacer from "./spacer";
 
-const menu = () => {
+const about = () => {
   clearView();
   spacer();
 };
 
-export default menu;
+export default about;

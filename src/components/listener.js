@@ -1,6 +1,6 @@
 import home from "./home";
 import menu from "./menu";
-import location from "./location";
+import about from "./about";
 
 const listener = () => {
   const homeBtn = document.querySelector(".homeBtn");
@@ -9,7 +9,7 @@ const listener = () => {
 
   homeBtn.addEventListener("click", home);
   menuBtn.addEventListener("click", menu);
-  locationBtn.addEventListener("click", location);
+  locationBtn.addEventListener("click", about);
 };
 
 export default listener;

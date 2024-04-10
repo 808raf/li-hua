@@ -1,7 +1,4 @@
-import clearView from "./clearView";
-
-const location = () => {
-  clearView();
+const spacer = () => {
   const main = document.querySelector("#content");
 
   const spacer = document.createElement("div");
@@ -10,4 +7,4 @@ const location = () => {
   main.appendChild(spacer);
 };
 
-export default location;
+export default spacer;

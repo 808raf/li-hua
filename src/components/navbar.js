@@ -25,8 +25,8 @@ const navBar = () => {
   menu.classList.add("menuBtn");
 
   const contact = document.createElement("button");
-  contact.textContent = "Locations";
-  contact.classList.add("locationBtn");
+  contact.textContent = "About";
+  contact.classList.add("aboutBtn");
 
   header.appendChild(nav);
   nav.append(imgDiv, navLinks);
