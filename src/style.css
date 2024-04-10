@@ -8,6 +8,7 @@
 
 html {
   overflow-x: hidden;
+  background-color: hsla(0, 0%, 100%, 1);
 }
 
 #main-2 {
@@ -145,6 +146,8 @@ a {
   font-size: 41px;
   color: hsla(0, 0%, 100%);
   font-weight: 700;
+  background-color: orange;
+  padding-top: 1%;
 }
 
 .footer {

@@ -2,14 +2,14 @@ import home from "./home";
 import menu from "./menu";
 import about from "./about";
 
-const listener = () => {
+const addListeners = () => {
   const homeBtn = document.querySelector(".homeBtn");
   const menuBtn = document.querySelector(".menuBtn");
-  const locationBtn = document.querySelector(".locationBtn");
+  const aboutBtn = document.querySelector(".aboutBtn");
 
   homeBtn.addEventListener("click", home);
   menuBtn.addEventListener("click", menu);
-  locationBtn.addEventListener("click", about);
+  aboutBtn.addEventListener("click", about);
 };
 
-export default listener;
+export default addListeners;
